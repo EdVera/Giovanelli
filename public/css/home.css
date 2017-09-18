@@ -1,0 +1,258 @@
+/* Nav */
+nav {
+  background-color: rgba(207, 14, 85, 0.9);
+  height: 100px;
+}
+
+nav ul{
+  margin-top: 20px;
+}
+
+nav ul a{
+  font-size: 18px;
+  margin-right: 20px;
+}
+ .brand-logo img {
+  margin: 0 20px;
+  vertical-align: text-bottom;
+  width: 100%;
+  max-width: 200px;
+}
+
+/* Cover */
+img#cover {
+  padding-top: -64px;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-position: center;
+}
+
+section#kitchen {
+  margin-top: -65px;
+  height: 100vh;
+}
+section#kitchen p{
+  color:white;
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+section#kitchen p.whats{
+  font-size: 20px;
+  margin: 0 auto;
+}
+section#kitchen a{
+  color:white;
+  background-color: transparent;
+  border: 1px solid white;
+}
+section#kitchen i{
+		padding: 15px;
+		font-size: 30px;
+		width: 60px;
+		height: 60px;
+		text-align: center;
+		text-decoration: none;
+		margin: 5px 5px;
+		border-radius: 50%;
+		background-color: white;
+		color: rgba(207, 14, 85, 0.9);
+ }
+/* Styles */
+section#styles{
+  background-color:white;
+  color: white;
+  text-align: center;
+  height: 284px;
+}
+
+section#styles h1{
+  font-weight: 900;
+}
+
+section#styles p{
+  font-size: 13px;
+  font-weight: 100;
+}
+/* Testimonials */
+section#testimonials{
+  background-color:white;
+  color: white;
+  text-align: center;
+}
+
+section#testimonials h4{
+  color:#ff5252;
+}
+
+section#testimonials p{
+  margin-top: 0;
+}
+
+.icon{
+  margin: 0 auto;
+  max-width: 40px;
+  width: 100%;
+}
+/* Dream */
+section#dream{
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+}
+section#dream h4{
+  color:rgb(207, 14, 85);;
+}
+
+section#dream p{
+  font-size: 13px;
+  font-weight: 100;
+  max-width: 400px;
+  margin: auto;
+}
+
+section#dream .btn{
+  margin-top: 15px;
+  margin-bottom: 10px;
+  background: white;
+  color:rgb(207, 14, 85);
+  border:2px solid rgb(207, 14, 85);
+}
+
+section#dream .btn:hover, section#dream .btn:active, section#dream .btn:focus {
+  background-color:rgb(207, 14, 85);
+  color: white;
+}
+
+/* Contact */
+section#contact{
+  padding-top: 22px;
+  padding-bottom: 11px;
+  background-color: lightgray;
+}
+section#contact h4{
+  color:darkgray;
+  text-align: center;
+}
+
+section#contact h6{
+  color:rgb(207, 14, 85);
+  text-align: left;
+}
+
+section#contact p{
+  font-size: 12px;
+  font-weight: 100;
+  margin-top: -10px;
+}
+
+section#contact i{
+}
+
+section#contact input, section#contact textarea{
+  background-color: white;
+  padding-left: 5px;
+  border-bottom: 0;
+  margin-top: -15px;
+}
+section#contact button{
+  background-color: transparent;
+  color: rgb(207, 14, 85);
+  border: 2px solid rgb(207, 14, 85);
+  margin-top: -20px;
+}
+
+/* Footer */
+footer{
+  background-color: #333333;
+  padding: 15px;
+  color: white;
+
+}
+
+button{
+  width: 100%;
+}
+
+.social{
+		padding: 10px;
+		font-size: 20px;
+		width: 40px;
+		height: 40px;
+		text-align: center;
+		text-decoration: none;
+		margin: 7px;
+		border-radius: 50%;
+		background-color: white;
+		color:black;
+}
+
+.fullwidth{
+  width: 100%;
+}
+
+/* Gallery */
+section#gallerycover {
+  margin-top: -65px;
+  height: 60vh;
+}
+section#gallerycover h1{
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+
+section#gallerycover i{
+		padding: 15px;
+		font-size: 30px;
+		width: 60px;
+		height: 60px;
+		text-align: center;
+		text-decoration: none;
+		margin: 5px 5px;
+		border-radius: 50%;
+		background-color: white;
+		color: rgba(207, 14, 85, 0.9);
+ }
+
+ section#gallerycover button{
+ 		padding: 15px;
+ 		font-size: 20px;
+ 		padding: 3px 5px 3px 5px;
+ 		background-color: white;
+ 		color: rgba(207, 14, 85, 0.9);
+  }
+
+  section#galleryslide{
+    height: 284px;
+  }
+  section#galleryslide a{
+    color: rgb(207, 14, 85);
+    background-color: transparent;
+  }
+  section#galleryslide h3{
+    font-weight: 900;
+    letter-spacing: 1px;
+  }
+  section#galleryslide p{
+    font-weight: 100;
+  }
+/* Responsive video*/
+@media only screen and (max-width: 600px) {
+  img#cover {
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: -1;
+  }
+  section#styles h1{
+    font-weight: 900;
+    font-size: 17px;
+  }
+  section#styles p{
+    font-size: 10px;
+    font-weight: 100;
+  }
+}
