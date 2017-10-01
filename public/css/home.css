@@ -19,6 +19,12 @@ nav ul a{
   max-width: 200px;
 }
 
+.z-depth-0 {
+  -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0, 0);
+  -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0, 0);
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0);
+}
+
 /* Cover */
 img#cover {
   padding-top: -64px;
@@ -166,7 +172,7 @@ section#contact button{
 
 /* Footer */
 footer{
-  background-color: #333333;
+  background-color:#263238;
   padding: 15px;
   color: white;
 
@@ -193,10 +199,22 @@ button{
   width: 100%;
 }
 
+#modal{
+  width: 100%;
+  color: white;
+}
+
+#modal .w3-modal-content{
+  width: 80%;
+  height: 70vh;
+  padding: 50px;
+}
+
 /* Gallery */
 section#gallerycover {
   margin-top: -65px;
-  height: 60vh;
+  height: 55vh;
+  background-color: rgba(207, 14, 85, 0.9);
 }
 section#gallerycover h1{
   letter-spacing: 2px;
@@ -217,15 +235,22 @@ section#gallerycover i{
  }
 
  section#gallerycover button{
- 		padding: 15px;
+     height: 50px;
+     font-size: 20px;
+     background-color: transparent;
+     color: white;
+     border: 1px solid white;
+  }
+
+ section#gallerycover .btn-active{
  		font-size: 20px;
- 		padding: 3px 5px 3px 5px;
  		background-color: white;
  		color: rgba(207, 14, 85, 0.9);
   }
 
   section#galleryslide{
-    height: 284px;
+    height: 300px;
+    background-color:#263238;
   }
   section#galleryslide a{
     color: rgb(207, 14, 85);
@@ -237,6 +262,69 @@ section#gallerycover i{
   }
   section#galleryslide p{
     font-weight: 100;
+  }
+
+  section#contactgallery{
+    padding-top: 22px;
+    padding-bottom: 11px;
+    background-color: lightgray;
+  }
+  section#contactgallery h4{
+    font-family: Lato;
+    font-size: 35px;
+    font-weight: lighter;
+    color:black;
+    text-align: left;
+  }
+
+  section#contactgallery h5{
+    font-family: Lato;
+    font-size: 35px;
+    font-weight: bolder;
+    color:black;
+    text-align: left;
+  }
+
+  section#contactgallery h6{
+    color:rgb(207, 14, 85);
+    text-align: left;
+  }
+
+  section#contactgallery p{
+    font-size: 12px;
+    font-weight: 100;
+    margin-top: -10px;
+  }
+
+  section#contactgallery i{
+  }
+
+  section#contactgallery input, section#contactgallery textarea{
+    background-color: white;
+    padding-left: 5px;
+    border-bottom: 0;
+    margin-top: -15px;
+  }
+  section#contactgallery button{
+    font-family: Lato;
+    background-color: transparent;
+    color: BLACK;
+    border: 2px solid black;
+    margin-top: -20px;
+    height: 50px;
+  }
+
+  section#contactgallery h2.leftalign{
+    color: rgb(207, 14, 85);
+    font-weight: 900;
+    text-align: center;
+    margin-top: 18%;
+  }
+
+  section#contactgallery p.leftalign{
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 40px;
   }
 /* Responsive video*/
 @media only screen and (max-width: 600px) {

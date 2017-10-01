@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/pmg" href="public/img/favicon/favicon.png">
+    <title>Giovanelli</title>
+    <link href="public/plugins/materialize/css/materialize.min.css" rel="stylesheet">
+    <link href="public/css/home.css" rel="stylesheet">
+    <link href="public/css/w3.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  </head>
+  <body>
+    <div id="content">
+      <nav class="menu hide-on-med-and-up"><a class="button-collapse" href="#" data-activates="mobile-nav"><i class="fa fa-bars"></i></a><a class="brand-logo"><img src="public/img/logo/logo.png"></a>
+        <ul class="side-nav" id="mobile-nav">
+                <li><a href="index.html">INCIO</a></li>
+                <li><a class="menu-link" href="#join">Comenzar proyecto</a></li>
+                <li><a href="gallery.html">Galería</a></li>
+                <li><a class="menu-link" href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+      <div class="navbar-fixed">
+        <nav class="menu hide-on-small-only transparent z-depth-0"><a class="brand-logo"><img src="public/img/logo/logo.png"></a>
+          <ul class="right menu-options">
+                  <li><a href="index.html">INCIO</a></li>
+                  <li><a class="menu-link" href="#join">Comenzar proyecto</a></li>
+                  <li><a href="gallery.html">Galería</a></li>
+                  <li><a class="menu-link" href="#contact">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <section class="w3-display-container" id="gallerycover">
+      <div class="row w3-display-topleft" style="margin-top:150px; width:100%;">
+        <div class="col l4 white-text center"><i class="fa fa-facebook"></i>Like y Comparte</div>
+        <div class="col l4 white-text center"><i class="fa fa-instagram"></i>SÍGUENOS</div>
+        <div class="col l4 white-text">
+          <div class="row" style="border: 1px solid white; border-radius:10px;">
+            <div class="col s2"><img src="public/img/icons/whatsapp.png" width="100%" style="margin-top:3px;"></div>
+            <div class="col s10">
+              <p class="whats">Cuentanos tu idea<br>(442)5.77.37.75</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w3-display-bottommiddle" style="margin-bottom:30px; width:100%;">
+        <div class="container">
+          <h1 class="white-text center">Elige tu estilo de cocina</h1>
+          <div class="row">
+            <div class="col s12 m4">
+              <button class="btn btn-active" id="buttonlaca">Laca Alto Brillo</button>
+            </div>
+            <div class="col s12 m4">
+              <button class="btn" id="buttonmelamina">Melamina</button>
+            </div>
+            <div class="col s12 m4">
+              <button class="btn" id="buttonmadera">Madera Masciza</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="galleryslide">
+      <div class="w3-row">
+        <div class="w3-col s6">
+          <div class="slider w3-display-container" id="laca">
+            <ul class="slides">
+              <li><img src="public/img/gallery/laca/juriquilla.jpg"></li>
+              <li><img src="public/img/gallery/laca/roja.jpg"></li>
+              <li><img src="public/img/gallery/laca/lago.jpg"></li>
+              <li><img src="public/img/gallery/laca/snjuan.jpg"></li>
+            </ul>
+            <button class="prev btn-flat white-text w3-display-left" style="z-index: 5; height: 70px; width:70px; font-size: 36px;">❮</button>
+            <button class="next btn-flat white-text w3-display-right" style="z-index: 5; height: 70px; width:70px; font-size: 36px;">❯</button>
+          </div>
+          <div class="slider w3-display-container hide" id="melamina">
+            <ul class="slides">
+              <li><img src="public/img/gallery/melamina/madera.jpg"></li>
+              <li><img src="public/img/gallery/melamina/juriquilla.jpeg"></li>
+              <li><img src="public/img/gallery/melamina/cumbres.jpg"></li>
+              <li><img src="public/img/gallery/melamina/jurica.jpeg"></li>
+            </ul>
+            <button class="prev btn-flat white-text w3-display-left" style="z-index: 5; height: 70px; width:70px; font-size: 36px;">❮</button>
+            <button class="next btn-flat white-text w3-display-right" style="z-index: 5; height: 70px; width:70px; font-size: 36px;">❯</button>
+          </div>
+          <div class="slider w3-display-container hide" id="madera">
+            <ul class="slides">
+              <li><img src="public/img/gallery/madera/smallende.jpg"></li>
+              <li><img src="public/img/gallery/madera/juriquilla.jpg"></li>
+              <li><img src="public/img/gallery/madera/campestre.jpg"></li>
+              <li><img src="public/img/gallery/madera/madera.jpg"></li>
+            </ul>
+            <button class="prev btn-flat white-text w3-display-left" style="z-index: 5; height: 70px; width:70px; font-size: 36px;">❮</button>
+            <button class="next btn-flat white-text w3-display-right" style="z-index: 5; height: 70px; width:70px; font-size: 36px;">❯</button>
+          </div>
+        </div>
+        <div class="w3-col s6">
+          <div class="container w3-padding-32">
+            <h3 class="white-text">COCINA LACA BRILLANTE</h3>
+            <p class="white-text">Un estilo único, con una atmósfera versátil y moderna, colores vivos y acabadoselegantes.<br><br> Si eres una persona actualizada y con gustos selectos, éste estilo es para ti.</p><a class="btn">Comenzar mi cocina >></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contactgallery">
+      <div class="row">
+        <div class="col s12 l6" id="lefttext">
+          <div class="container">
+            <h2 class="leftalign">YA ELEGÍ MI ESTILO Y QUIERO COMENZAR</h2>
+            <p class="leftalign">¡Excelente!, elegiste un estilo, ahora solo ingresa tus datos y podremos comezar tus proyectos. </p>
+          </div>
+        </div>
+        <div class="col s12 l6">
+          <div class="row"></div>
+          <h4>QUIERO MI COCINA</h4>
+          <h5>LACA DE ALTO BRILLO</h5>
+          <div class="row">
+            <div class="input-field col s12 l6">
+              <input type="text" placeholder="NOMBRE">
+            </div>
+            <div class="input-field col s12 l6">
+              <input type="text" placeholder="APELLIDOS">
+            </div>
+            <div class="input-field col s12 l6">
+              <input type="text" placeholder="CORREO">
+            </div>
+            <div class="input-field col s12 l6">
+              <input type="text" placeholder="TELÉFONO">
+            </div>
+            <div class="input-field col s12">
+              <textarea class="materialize-textarea" placeholder="Mensaje"></textarea>
+            </div>
+            <div class="input-field col s6 offset-s6">
+              <button class="btn waves-effect waves-light" type="submit" name="Enviar">¡COMENZAR AHORA!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="w3-container">
+        <div class="row">
+          <div class="col l4"><i class="fa fa-phone"></i> (442)5 77 37 75<br><i class="fa fa-envelope-o"></i> hola@giovanellicocinas.com</div>
+          <div class="col l4" style="border-left:1px solid white;border-right:1px solid white;">
+            <ul>
+              <li>Inicio</li>
+              <li>Comenzar proyecto</li>
+              <li>Galería</li>
+              <li>Contacto</li>
+            </ul>
+          </div>
+          <div class="col l4">
+            <p class="center"><i class="fa fa-facebook social"></i><i class="fa fa-instagram social"></i></p>
+            <p class="center">SÍGUENOS EN NUESTRAS REDES SOCIALES</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" async>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="public/plugins/materialize/js/materialize.min.js"></script>
+    <script src="public/js/home.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" async="">
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="public/plugins/materialize/js/materialize.min.js"></script>
+    <script src="public/js/home.js"></script>
+    <script>
+      var slideIndex = 0;
+      carousel();
+      function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > x.length) {slideIndex = 1}
+      x[slideIndex-1].style.display = "block";
+      setTimeout(carousel, 5000);
+      }
+    </script>
+  </body>
+</html>
