@@ -1,0 +1,110 @@
+extends layout.pug
+block content
+		section#kitchen.w3-display-container
+			img#cover(src='public/img/index/_DSC0234.jpg')
+			img.w3-display-topmiddle.fullwidth(src='public/img/icons/transparencia.png')
+			.w3-display-left(style='margin-left: 150px; width:50%;')
+				p.left.white-text
+					| Remodela tu
+					b cocina
+					|  a tu medida
+				a.btn.menu-link(href="#contact" style="height:60px;padding-top:12px") Comenzar Ahora
+			.w3-display-topright(style='margin-top:130px;')
+				.row(style='border: 1px solid white; border-radius:10px;')
+					.col.s2
+						img(src='public/img/icons/whatsapp.png', width='100%', style='margin-top:10px;')
+					.col.s10
+						p.whats
+							| Cuentanos tu idea
+							br
+							| (442)5.77.37.75
+			.w3-display-right(style='margin:0px 180px 0 0;')
+				.white-text
+					i.fa.fa-facebook
+					| Like y Comparte
+					br
+					i.fa.fa-instagram
+					| SÍGUENOS
+		section#styles
+			.w3-display-container(style='height:284px;')
+				.w3-row
+					.w3-col.s4
+						img.fullwidth(src='public/img/index/_DSC0234.jpg', style='height:284px;')
+					.w3-col.s4
+						img.fullwidth(src='public/img/index/_DSC0158.jpg', style='height:284px;')
+					.w3-col.s4
+						img.fullwidth(src='public/img/index/_DSC0203.jpg', style='height:284px;')
+				img.w3-display-middle.fullwidth(src='public/img/icons/estilos.png', style='height:284px;')
+				.w3-display-middle
+					h1 ¡CONOCE TU ESTILO!
+					p Define tu estilo con nuestra galería de proyectos
+					p ¡Imagina como puede verse la tuya!
+					a.btn.transparent.center Comenzar mi cocina >>
+		section#testimonials.white
+			.w3-display-container(style='height:40vh;')
+				.w3-row
+					.w3-col.s4
+						img.fullwidth(src='public/img/index/_DSC0218.jpg', style='height:40vh;')
+					.w3-col.s4
+						img.fullwidth(src='public/img/index/_DSC0242.jpg', style='height:40vh;')
+					.w3-col.s4
+						img.fullwidth(src='public/img/index/_DSC0203.jpg', style='height:40vh;')
+				img.w3-display-middle.fullwidth(src='public/img/icons/testimonials.png', style='height:40vh;')
+				.w3-content.w3-display-middle(style='max-width:400px')
+					.mySlides.w3-container.transparent
+						i.fa.fa-play-circle-o(style="font-size:80px;font-weight:100")
+						p(style="font-weight:900") "Detlef-América / Querétaro"
+						p(style="font-style: italic;font-weight:100") "Nos ayudaron a aprovechar pequeños espacios."
+					.mySlides.w3-container.transparent
+						i.fa.fa-play-circle-o(style="font-size:80px;font-weight:100")
+						p(style="font-weight:900") "Detlef-América / Querétaro"
+						p(style="font-style: italic;font-weight:100") "Nos ayudaron a aprovechar pequeños espacios."
+					.mySlides.w3-container.transparent
+						i.fa.fa-play-circle-o(style="font-size:80px;font-weight:100")
+						p(style="font-weight:900") "Detlef-América / Querétaro"
+						p(style="font-style: italic;font-weight:100") "Nos ayudaron a aprovechar pequeños espacios."
+		section#dream
+			.container
+				h4 ¡LA COCINA DE TUS SUEÑOS TE ESPERA!
+				p
+					| Dejanos escucharte y hacer realidad el espacio de tus sueños, agenda con nosotros y déjate sorprender.
+				a.btn(onclick="document.getElementById('modal').style.display='block'") ¡COMENZAR AHORA!
+		section#contact
+			.row
+				.col.s12.l6
+					h4 ¡QUEREMOS HACER TU COCINA!
+					.row
+						.col.s5.offset-s1
+							h6
+								i.fa.fa-phone
+								|  LLÁMANOS AHORA
+							p (442) 525 63 36
+						.col.s5
+							h6
+								i.fa.fa-envelope-o
+								|  ESCRÍBENOS
+							p hola@giovanellicocinas.com
+					.row
+						.input-field.col.s12.l6
+							input(type='text', placeholder='NOMBRE')
+						.input-field.col.s12.l6
+							input(type='text', placeholder='APELLIDOS')
+						.input-field.col.s12.l6
+							input(type='text', placeholder='CORREO')
+						.input-field.col.s12.l6
+							input(type='text', placeholder='TELÉFONO')
+						.input-field.col.s12
+							textarea.materialize-textarea(placeholder='Mensaje')
+						.input-field.col.s6.offset-s3
+							button.btn.waves-effect.waves-light(type='submit', name='Enviar') ¡COMENZAR AHORA!
+				.col.s12.l6
+					iframe(width='100%', height='400vw', frameborder='0', style='border:0;', src='https://www.google.com/maps/embed/v1/place?key=AIzaSyAPGNs94-YBhzILSBcDQqImpf2QSwV7a5w&q=20.598648,-100.374819&zoom=18', allowfullscreen='')
+
+		#modal.w3-modal.w3-animate-opacity
+			.w3-modal-content.w3-card-4.black
+				h1.center ¡REDISEÑA O EMPIEZA TU COCOINA!
+				h3.center La cocina que tanto deseas te está esperando, no dejes pasar esta oportunidad.
+				.w3-row
+					.w3-col.s12.s6
+						h3 ¡AGENDA TU CITA!
+						.

@@ -5,16 +5,17 @@
     <link rel="icon" type="image/pmg" href="public/img/favicon/favicon.png">
     <title>Giovanelli</title>
     <link href="public/plugins/materialize/css/materialize.min.css" rel="stylesheet">
-    <link href="public/css/home.css" rel="stylesheet">
     <link href="public/css/w3.css" rel="stylesheet">
+    <link href="public/css/layout.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="public/css/home.css" rel="stylesheet">
   </head>
   <body>
     <div id="content">
-      <nav class="menu hide-on-med-and-up"><a class="button-collapse" href="#" data-activates="mobile-nav"><i class="fa fa-bars"></i></a><a class="brand-logo"><img src="public/img/logo/logo.png"></a>
+      <nav class="menu hide-on-med-and-up fixed"><a class="button-collapse" href="#" data-activates="mobile-nav"><i class="fa fa-bars"></i></a><a class="brand-logo"><img src="public/img/logo/logo.png" style="z-index:10000000;"></a>
         <ul class="side-nav" id="mobile-nav">
-                <li><a href="index.html">INCIO</a></li>
+                <li><a href="index.html">INICIO</a></li>
                 <li><a class="menu-link" href="#join">Comenzar proyecto</a></li>
                 <li><a href="gallery.html">Galería</a></li>
                 <li><a class="menu-link" href="#contact">Contacto</a></li>
@@ -23,7 +24,7 @@
       <div class="navbar-fixed">
         <nav class="menu hide-on-small-only transparent z-depth-0"><a class="brand-logo"><img src="public/img/logo/logo.png"></a>
           <ul class="right menu-options">
-                  <li><a href="index.html">INCIO</a></li>
+                  <li><a href="index.html">INICIO</a></li>
                   <li><a class="menu-link" href="#join">Comenzar proyecto</a></li>
                   <li><a href="gallery.html">Galería</a></li>
                   <li><a class="menu-link" href="#contact">Contacto</a></li>
@@ -32,10 +33,10 @@
       </div>
     </div>
     <section class="w3-display-container" id="kitchen"><img id="cover" src="public/img/index/_DSC0234.jpg"><img class="w3-display-topmiddle fullwidth" src="public/img/icons/transparencia.png">
-      <div class="w3-display-left" style="margin-left: 150px; width:50%;">
-        <p class="left white-text">Remodela tu <b>cocina</b> a tu medida</p><a class="btn menu-link" href="#contact" style="height:60px;padding-top:12px;">Comenzar Ahora</a>
+      <div class="w3-display-left">
+        <p class="left white-text">Remodela tu <b>cocina</b> a tu medida</p><a class="btn menu-link" href="#contact">Comenzar Ahora</a>
       </div>
-      <div class="w3-display-topright" style="margin-top:130px;">
+      <div class="w3-display-topright">
         <div class="row" style="border: 1px solid white; border-radius:10px;">
           <div class="col s2"><img src="public/img/icons/whatsapp.png" width="100%" style="margin-top:10px;"></div>
           <div class="col s10">
@@ -43,30 +44,30 @@
           </div>
         </div>
       </div>
-      <div class="w3-display-right" style="margin:0px 180px 0 0;">
+      <div class="w3-display-right" style="margin:0px 10px 0 0;">
         <div class="white-text"><i class="fa fa-facebook"></i>Like y Comparte<br><i class="fa fa-instagram"></i>SÍGUENOS</div>
       </div>
     </section>
     <section id="styles">
-      <div class="w3-display-container" style="height:284px;">
+      <div class="w3-display-container">
         <div class="w3-row">
-          <div class="w3-col s4"><img class="fullwidth" src="public/img/index/_DSC0234.jpg" style="height:284px;"></div>
-          <div class="w3-col s4"><img class="fullwidth" src="public/img/index/_DSC0158.jpg" style="height:284px;"></div>
-          <div class="w3-col s4"><img class="fullwidth" src="public/img/index/_DSC0203.jpg" style="height:284px;"></div>
-        </div><img class="w3-display-middle fullwidth" src="public/img/icons/estilos.png" style="height:284px;">
+          <div class="w3-col s12 m4 hide-on-med-and-down"><img class="fullwidth" src="public/img/index/_DSC0234.jpg" style="height:50vh;"></div>
+          <div class="w3-col s12 m4 hide-on-med-and-down"><img class="fullwidth" src="public/img/index/_DSC0158.jpg" style="height:50vh;"></div>
+          <div class="w3-col s12 m4"><img class="fullwidth" src="public/img/index/_DSC0203.jpg" style="height:50vh;"></div>
+        </div><img class="w3-display-middle fullwidth" src="public/img/icons/estilos.png" style="height:50vh;">
         <div class="w3-display-middle">
           <h1>¡CONOCE TU ESTILO!</h1>
           <p>Define tu estilo con nuestra galería de proyectos</p>
-          <p>¡Imagina como puede verse la tuya!</p><a class="btn transparent center">Comenzar mi cocina >></a>
+          <p>¡Imagina como puede verse la tuya!</p><a class="btn transparent center menu-link" href="#contact">Comenzar mi cocina  </a>
         </div>
       </div>
     </section>
     <section class="white" id="testimonials">
       <div class="w3-display-container" style="height:40vh;">
         <div class="w3-row">
-          <div class="w3-col s4"><img class="fullwidth" src="public/img/index/_DSC0218.jpg" style="height:40vh;"></div>
-          <div class="w3-col s4"><img class="fullwidth" src="public/img/index/_DSC0242.jpg" style="height:40vh;"></div>
-          <div class="w3-col s4"><img class="fullwidth" src="public/img/index/_DSC0203.jpg" style="height:40vh;"></div>
+          <div class="w3-col s12 m4 hide-on-med-and-down"><img class="fullwidth" src="public/img/index/_DSC0218.jpg" style="height:40vh;"></div>
+          <div class="w3-col s12 m4"><img class="fullwidth" src="public/img/index/_DSC0242.jpg" style="height:40vh;"></div>
+          <div class="w3-col s12 m4 hide-on-med-and-down"><img class="fullwidth" src="public/img/index/_DSC0203.jpg" style="height:40vh;"></div>
         </div><img class="w3-display-middle fullwidth" src="public/img/icons/testimonials.png" style="height:40vh;">
         <div class="w3-content w3-display-middle" style="max-width:400px;">
           <div class="mySlides w3-container transparent"><i class="fa fa-play-circle-o" style="font-size:80px;font-weight:100;"></i>
@@ -87,7 +88,7 @@
     <section id="dream">
       <div class="container">
         <h4>¡LA COCINA DE TUS SUEÑOS TE ESPERA!</h4>
-        <p>Dejanos escucharte y hacer realidad el espacio de tus sueños, agenda con nosotros y déjate sorprender.</p><a class="btn" onclick="document.getElementById('modal').style.display='block'">¡COMENZAR AHORA!</a>
+        <p>Dejanos escucharte y hacer realidad el espacio de tus sueños, agenda con nosotros y déjate sorprender.</p><a class="btnwaves-effect waves-light btn modal-trigger" href="#modal1">¡COMENZAR AHORA!</a>
       </div>
     </section>
     <section id="contact">
@@ -130,27 +131,55 @@
         </div>
       </div>
     </section>
-    <div class="w3-modal w3-animate-opacity" id="modal">
-      <div class="w3-modal-content w3-card-4 black">
-        <h1 class="center">¡REDISEÑA O EMPIEZA TU COCOINA!</h1>
+    <div class="modal" id="modal1">
+      <div class="modal-content black">
+        <h1 class="center white-text">¡REDISEÑA O EMPIEZA TU COCINA!</h1>
         <h3 class="center">La cocina que tanto deseas te está esperando, no dejes pasar esta oportunidad.</h3>
+        <div class="w3-row">
+          <div class="w3-col s12 s6">
+            <h3>¡AGENDA TU CITA!</h3>
+          </div>
+        </div>
       </div>
     </div>
     <footer>
       <div class="w3-container">
-        <div class="row">
-          <div class="col l4"><i class="fa fa-phone"></i> (442)5 77 37 75<br><i class="fa fa-envelope-o"></i> hola@giovanellicocinas.com</div>
-          <div class="col l4" style="border-left:1px solid white;border-right:1px solid white;">
-            <ul>
-              <li>Inicio</li>
-              <li>Comenzar proyecto</li>
-              <li>Galería</li>
-              <li>Contacto</li>
-            </ul>
+        <div class="hide-on-small-only">
+          <div class="row valign-wrapper">
+            <div class="col l4"><i class="fa fa-phone"></i> (442)5 77 37 75<br><i class="fa fa-envelope-o"></i> hola@giovanellicocinas.com</div>
+            <div class="col l4" style="border-left:1px solid white;border-right:1px solid white;">
+              <ul>
+                <li> <a href="index.html">Inicio</a></li>
+                <li> <a href="index.html">Comenzar proyecto</a></li>
+                <li> <a href="index.html">Galería</a></li>
+                <li> <a class="menu-link" href="#contact">Contacto</a></li>
+              </ul>
+            </div>
+            <div class="col l4">
+              <p class="center"><i class="fa fa-facebook social"></i><i class="fa fa-instagram social"></i></p>
+              <p class="center">SÍGUENOS EN NUESTRAS REDES SOCIALES</p>
+            </div>
           </div>
-          <div class="col l4">
-            <p class="center"><i class="fa fa-facebook social"></i><i class="fa fa-instagram social"></i></p>
-            <p class="center">SÍGUENOS EN NUESTRAS REDES SOCIALES</p>
+        </div>
+        <div class="hide-on-med-and-up">
+          <div class="row">
+            <div class="col s10 offset-s1 center"><i class="fa fa-phone"></i> (442)5 77 37 75<br><i class="fa fa-envelope-o"></i> hola@giovanellicocinas.com</div>
+          </div>
+          <div class="row">
+            <div class="col s8 offset-s2" style="border:1px solid white;border-right:1px solid white;">
+              <ul>
+                <li> <a href="index.html">Inicio</a></li>
+                <li> <a href="index.html">Comenzar proyecto</a></li>
+                <li> <a href="index.html">Galería</a></li>
+                <li> <a class="menu-link" href="#contact">Contacto</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s10 offset-s1">
+              <p class="center"><i class="fa fa-facebook social"></i><i class="fa fa-instagram social"></i></p>
+              <p class="center">SÍGUENOS EN NUESTRAS REDES SOCIALES</p>
+            </div>
           </div>
         </div>
       </div>

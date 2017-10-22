@@ -8,7 +8,7 @@ $(document).ready(function(){
 	});
 	$('.slider').slider({
 		full_width: true,
-		height: 300,
+		height: 550,
 		indicators: false,
 		interval: 3000
 	});
@@ -70,3 +70,13 @@ $(window).scroll(function() {
     $('nav').addClass('z-depth-0');
   }
 });
+
+$('.modal').modal({
+		 dismissible: true, // Modal can be dismissed by clicking outside of the modal
+		 opacity: .7, // Opacity of modal background
+		 inDuration: 300, // Transition in duration
+		 outDuration: 200, // Transition out duration
+		 startingTop: '4%', // Starting top style attribute
+		 endingTop: '10%', // Ending top style attribute
+	 }
+ );

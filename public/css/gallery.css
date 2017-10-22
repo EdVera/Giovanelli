@@ -1,0 +1,248 @@
+/* Gallery */
+section#gallerycover {
+  margin-top: -65px;
+  height: 55vh;
+  background-color: rgba(207, 14, 85, 0.9);
+}
+section#gallerycover h1{
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+
+section#gallerycover i{
+		padding: 15px;
+		font-size: 30px;
+		width: 60px;
+		height: 60px;
+		text-align: center;
+		text-decoration: none;
+		margin: 5px 5px;
+		border-radius: 50%;
+		background-color: white;
+		color: rgba(207, 14, 85, 0.9);
+ }
+
+ section#gallerycover button{
+     height: 50px;
+     font-size: 20px;
+     background-color: transparent;
+     color: white;
+     border: 1px solid white;
+  }
+
+ section#gallerycover .btn-active{
+ 		font-size: 20px;
+ 		background-color: white;
+ 		color: rgba(207, 14, 85, 0.9);
+  }
+  section#gallerycover .w3-display-topleft{
+    margin-top:150px;
+    width:100%;
+  }
+
+  section#gallerycover .w3-display-bottommiddle{
+    margin-bottom: 50px;
+    width: 100%
+  }
+  section#gallerycover button{
+    width: 100%;
+  }
+
+  section#galleryslide{
+    background-color:#263238;
+  }
+  section#galleryslide a{
+    color: rgb(207, 14, 85);
+    background-color: transparent;
+  }
+  section#galleryslide h3{
+    font-weight: 900;
+    letter-spacing: 1px;
+  }
+  section#galleryslide p{
+    font-weight: 100;
+  }
+
+  section#contact{
+    padding-top: 22px;
+    padding-bottom: 11px;
+    background-color: lightgray;
+  }
+  section#contact h4{
+    font-family: Lato;
+    font-size: 35px;
+    font-weight: lighter;
+    color:black;
+    text-align: left;
+  }
+
+  section#contact h5{
+    font-family: Lato;
+    font-size: 35px;
+    font-weight: bolder;
+    color:black;
+    text-align: left;
+  }
+
+  section#contact h6{
+    color:rgb(207, 14, 85);
+    text-align: left;
+  }
+
+  section#contact p{
+    font-size: 12px;
+    font-weight: 100;
+    margin-top: -10px;
+  }
+
+  section#contact i{
+  }
+
+  section#contact input, section#contact textarea{
+    background-color: white;
+    padding-left: 5px;
+    border-bottom: 0;
+    margin-top: -15px;
+  }
+  section#contact button{
+    font-family: Lato;
+    background-color: transparent;
+    color: BLACK;
+    border: 2px solid black;
+    margin-top: -20px;
+    height: 50px;
+  }
+
+  section#contact h2.leftalign{
+    color: rgb(207, 14, 85);
+    font-weight: 900;
+    text-align: center;
+    margin-top: 18%;
+  }
+
+  section#contact p.leftalign{
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 40px;
+  }
+
+  section #modal1{
+    color: white;
+  }
+
+@media screen and (min-width: 1300px) {
+
+}
+@media screen and (min-width: 900px){
+  section#galleryslide .verticalalign{
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+
+}
+
+@media screen and (max-width: 800px) {
+
+}
+@media screen and (max-width: 650px) {
+  section#gallerycover {
+    margin-top: -156px;
+    height: 55vh;
+  }
+  section#gallerycover h1{
+    font-size: 25px;
+  }
+
+  section#gallerycover .w3-display-topleft{
+    margin-top:50px;
+    width:100%;
+  }
+
+  section#gallerycover i{
+  		padding: 5px;
+  		font-size: 10px;
+  		width: 20px;
+  		height: 20px;
+   }
+
+   section#gallerycover button{
+       height: 35px;
+       font-size: 15px;
+       margin: 0 0 10px 0;
+    }
+
+   section#gallerycover .btn-active{
+   		font-size: 17px;
+    }
+
+    section#gallerycover .w3-display-bottommiddle{
+      margin-bottom: 0px;
+    }
+    section#gallerycover button{
+      width: 100%;
+    }
+
+    section#galleryslide{
+      background-color:#263238;
+    }
+    section#galleryslide a{
+    }
+    section#galleryslide h3{
+      font-weight: 900;
+      letter-spacing: 1px;
+    }
+    section#galleryslide p{
+      font-weight: 100;
+    }
+
+    section#contact{
+      padding-top: 22px;
+      padding-bottom: 11px;
+      background-color: lightgray;
+    }
+    section#contact h4{
+      font-family: Lato;
+      font-size: 35px;
+      font-weight: lighter;
+      color:black;
+      text-align: left;
+    }
+
+    section#contact h5{
+      font-family: Lato;
+      font-size: 35px;
+      font-weight: bolder;
+      color:black;
+      text-align: left;
+    }
+
+    section#contact h6{
+    }
+
+    section#contact p{
+      font-size: 12px;
+      font-weight: 100;
+      margin-top: -10px;
+    }
+
+    section#contact i{
+    }
+
+    section#contact input, section#contact textarea{
+
+    }
+    section#contact button{
+    }
+
+    section#contact h2.leftalign{
+      font-size: 18px;
+    }
+
+    section#contact p.leftalign{
+      font-size: 15px;
+      text-align: justify;
+      margin-top:20px;
+    }
+}
