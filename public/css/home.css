@@ -158,15 +158,31 @@ button{
   width: 100%;
 }
 
-#modal{
-  width: 100%;
+#modal1{
+  width: 75%;
   color: white;
 }
 
-#modal .w3-modal-content{
-  width: 80%;
-  height: 70vh;
-  padding: 50px;
+#modal1 input, #modal1 textarea{
+  background-color: white;
+  color: black;
+  padding-left: 10px;
+  border-bottom: 0;
+  margin-top: -10px;
+  margin-bottom: 0px;
+}
+#modal1 button{
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  margin-top: -20px;
+}
+#modal1 p{
+  font-weight: 100;
+}
+#modal1 h3{
+  font-weight: 900;
+  font-family: Lato;
 }
 
 /* Responsive*/
