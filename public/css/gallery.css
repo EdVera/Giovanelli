@@ -144,15 +144,15 @@ section#gallerycover i{
 }
 @media screen and (max-width: 650px) {
   section#gallerycover {
-    margin-top: -156px;
-    height: 55vh;
+    margin-top: -55px;
+    height: 65vh;
   }
   section#gallerycover h1{
     font-size: 25px;
   }
 
   section#gallerycover .w3-display-topleft{
-    margin-top:50px;
+    margin-top:100px;
     width:100%;
   }
 

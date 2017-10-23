@@ -180,16 +180,24 @@ button{
 #modal1 p{
   font-weight: 100;
 }
+#modal1 h1{
+  margin: 50px 0;
+}
 #modal1 h3{
   font-weight: 900;
   font-family: Lato;
 }
 
 /* Responsive*/
+@media only screen and (min-width: 920px) {
+  #modal1 iframe{
+    height: 450px;
+  }
+}
 @media only screen and (max-width: 650px) {
   section#kitchen {
     height: 50vh;
-    margin-top: -156px;
+    margin-top: -65px;
   }
   img#cover {
     width: 100%;
@@ -199,14 +207,18 @@ button{
     z-index: -1;
     height: 50vh;
   }
-  section#kitchen .fullwidth{
+  section#kitchen .w3-display-left, section#kitchen .w3-display-right{
+    margin-top: 20px;
   }
   section#kitchen .w3-display-left{
     margin-left: 20px;
     width:50%;
   }
+  section#kitchen .w3-display-righ{
+    margin-right: 20px;
+  }
   section#kitchen .w3-display-topright{
-    margin-top:90px;
+    margin-top:110px;
     width: 50%;
   }
   section#kitchen p{
@@ -243,5 +255,16 @@ button{
     font-size: 10px;
     height: 20px;
     display: inline-table;
+  }
+  #modal1 h1{
+    font-size: 15px;
+    margin: 10px 0;
+  }
+  #modal1 p{
+    font-size: 12px;
+  }
+  #modal1 h3{
+    font-size: 16px;
+    text-align: center;
   }
 }
