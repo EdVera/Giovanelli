@@ -43,3 +43,54 @@ footer{
 		background-color: white;
 		color:black;
 }
+
+#modal1{
+  width: 75%;
+  color: white;
+}
+
+#modal1 input, #modal1 textarea{
+  background-color: white;
+  color: black;
+  padding-left: 10px;
+  border-bottom: 0;
+  margin-top: -10px;
+  margin-bottom: 0px;
+}
+#modal1 button{
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  margin-top: -20px;
+}
+#modal1 p{
+  font-weight: 100;
+}
+#modal1 h1{
+  margin: 50px 0;
+}
+#modal1 h3{
+  font-weight: 900;
+  font-family: Lato;
+}
+
+/* Responsive*/
+@media only screen and (min-width: 920px) {
+  #modal1 iframe{
+    height: 450px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  #modal1 h1{
+    font-size: 15px;
+    margin: 10px 0;
+  }
+  #modal1 p{
+    font-size: 12px;
+  }
+  #modal1 h3{
+    font-size: 16px;
+    text-align: center;
+  }
+}

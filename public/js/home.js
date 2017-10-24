@@ -7,19 +7,19 @@ $(document).ready(function(){
 	    }, 500);
 	});
 	$('.slider').slider({
-		full_width: true,
+		full_width: false,
 		height: 550,
+		interval: 5000,
 		indicators: false,
-		interval: 3000
-	});
-
-	$('.next').click(function() {
-	 $('.slider').slider('next');
-	});
-	$('.prev').click(function() {
-	 $('.slider').slider('prev');
 	});
 	$('.materialboxed').materialbox();
+});
+
+$('.next').click(function() {
+ $('.slider').slider('next');
+});
+$('.prev').click(function() {
+ $('.slider').slider('prev');
 });
 
 $('#buttonmelamina').click(function(){
@@ -31,6 +31,14 @@ $('#buttonmelamina').click(function(){
 		$('#melamina').removeClass('hide');
 		$('#laca').addClass('hide');
 		$('#madera').addClass('hide');
+		// cambiar la clase CSS de la descripción aquí
+		$('#melaminatext').removeClass('hide');
+		$('#lacatext').addClass('hide');
+		$('#maderatext').addClass('hide');
+		// cambiar la clase CSS del formulario aquí
+		$('#melaminaform').removeClass('hide');
+		$('#lacaform').addClass('hide');
+		$('#maderaform').addClass('hide');
 });
 
 $('#buttonmadera').click(function(){
@@ -42,6 +50,14 @@ $('#buttonmadera').click(function(){
 		$('#madera').removeClass('hide');
 		$('#laca').addClass('hide');
 		$('#melamina').addClass('hide');
+		// cambiar la clase CSS de la descripción aquí
+		$('#maderatext').removeClass('hide');
+		$('#lacatext').addClass('hide');
+		$('#melaminatext').addClass('hide');
+		// cambiar la clase CSS del formulario aquí
+		$('#maderaform').removeClass('hide');
+		$('#lacaform').addClass('hide');
+		$('#melaminaform').addClass('hide');
 });
 
 $('#buttonlaca').click(function()
@@ -54,6 +70,14 @@ $('#buttonlaca').click(function()
 		$('#laca').removeClass('hide');
 		$('#melamina').addClass('hide');
 		$('#madera').addClass('hide');
+		// cambiar la clase CSS de la descripción aquí
+		$('#lacatext').removeClass('hide');
+		$('#melaminatext').addClass('hide');
+		$('#maderatext').addClass('hide');
+		// cambiar la clase CSS del formulario aquí
+		$('#lacaform').removeClass('hide');
+		$('#melaminaform').addClass('hide');
+		$('#maderaform').addClass('hide');
 });
 
 
