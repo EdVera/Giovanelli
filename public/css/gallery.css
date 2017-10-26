@@ -24,14 +24,14 @@ section#gallerycover i{
 
  section#gallerycover button{
      height: 50px;
-     font-size: 20px;
+     font-size: 15px;
      background-color: transparent;
      color: white;
      border: 1px solid white;
   }
 
  section#gallerycover .btn-active{
- 		font-size: 20px;
+ 		font-size: 16px;
  		background-color: white;
  		color: rgba(207, 14, 85, 0.9);
   }
