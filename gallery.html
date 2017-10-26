@@ -72,46 +72,81 @@
         </div>
       </section>
       <section id="galleryslide">
-        <div class="w3-row" style="margin-bottom:0px;">
-          <div class="w3-col no-padding s12 m7 w3-display-container" style="background-color:#263238;">
-            <div class="slider" id="laca">
-              <ul class="slides">
+        <!--.w3-row(style="margin-bottom:0px;")
+        .w3-col.no-padding.s12.m7.w3-display-container(style='background-color:#263238;')
+        	#laca.slider
+        		ul.slides
+        			li
+        				img(class="", style="width:100%" src='public/img/gallery/laca/juriquilla.jpg')
+        			li
+        				img(class="", style="width:100%" src='public/img/gallery/laca/roja.jpg')
+        			li
+        				img(class="", style="width:100%" src='public/img/gallery/laca/lago.jpg')
+        			li
+        				img(class="", style="width:100%" src='public/img/gallery/laca/snjuan.jpg')
+        	#melamina.slider.hide
+        		ul.slides
+        			li
+        				img(src='public/img/gallery/melamina/madera.jpg')
+        			li
+        				img(src='public/img/gallery/melamina/juriquilla.jpeg')
+        			li
+        				img(src='public/img/gallery/melamina/cumbres.jpg')
+        			li
+        				img(src='public/img/gallery/melamina/jurica.jpeg')
+        	#madera.slider.hide
+        		ul.slides
+        			li
+        				img(src='public/img/gallery/madera/smallende.jpg')
+        			li
+        				img(src='public/img/gallery/madera/juriquilla.jpg')
+        			li
+        				img(src='public/img/gallery/madera/campestre.jpg')
+        			li
+        				img(src='public/img/gallery/madera/madera.jpg')
+        	button.prev.btn-flat.white-text.w3-display-left(style='z-index: 5; height: 70px; width:70px; font-size: 36px') ❮
+        	button.next.btn-flat.white-text.w3-display-right(style='z-index: 5; height: 70px; width:70px; font-size: 36px') ❯
+        .w3-col.s12.m5.verticalalign(style='background-color:#263238;')
+        	#lacatext.container.w3-padding-32
+        		h3.white-text COCINA LACA BRILLANTE
+        		p.white-text.w3-justify
+        			| Un estilo único, con una atmósfera versátil y moderna, colores vivos y acabados elegantes.
+        			br
+        			br
+        			|  Si eres una persona actualizada y con gustos selectos, éste estilo es para ti.
+        		a.btn.menu-link(href="#contact") Comenzar mi cocina >>
+        	#melaminatext.container.w3-padding-32.hide
+        		h3.white-text COCINA MELAMINA
+        		p.white-text.w3-justify
+        			| Un estilo único, con una atmósfera versátil y moderna, colores vivos y acabados elegantes.
+        			br
+        			br
+        			|  Si eres una persona actualizada y con gustos selectos, éste estilo es para ti.
+        		a.btn.menu-link(href="#contact") Comenzar mi cocina >>
+        	#maderatext.container.w3-padding-32.hide
+        		h3.white-text COCINA MADERA
+        		p.white-text.w3-justify
+        			| Un estilo único, con una atmósfera versátil y moderna, colores vivos y acabados elegantes.
+        			br
+        			br
+        			|  Si eres una persona actualizada y con gustos selectos, éste estilo es para ti.
+        		a.btn.menu-link(href="#contact") Comenzar mi cocina >>
+        -->
+        <div class="row">
+          <div class="col s12 m7 no-padding">
+            <div class="slider w3-container-display">
+              <div class="ul slides">
                 <li><img src="public/img/gallery/laca/juriquilla.jpg"></li>
                 <li><img src="public/img/gallery/laca/roja.jpg"></li>
                 <li><img src="public/img/gallery/laca/lago.jpg"></li>
-                <li><img src="public/img/gallery/laca/snjuan.jpg"></li>
-              </ul>
+              </div>
+              <button class="next btn-flat white-text w3-display-right" style="z-index: 5; height: 70px; width:70px; font-size: 36px;">❯</button>
+              <button class="prev btn-flat white-text w3-display-left" style="z-index: 5; height: 70px; width:70px; font-size: 36px;">❮</button>
             </div>
-            <div class="slider hide" id="melamina">
-              <ul class="slides">
-                <li><img src="public/img/gallery/melamina/madera.jpg"></li>
-                <li><img src="public/img/gallery/melamina/juriquilla.jpeg"></li>
-                <li><img src="public/img/gallery/melamina/cumbres.jpg"></li>
-                <li><img src="public/img/gallery/melamina/jurica.jpeg"></li>
-              </ul>
-            </div>
-            <div class="slider hide" id="madera">
-              <ul class="slides">
-                <li><img src="public/img/gallery/madera/smallende.jpg"></li>
-                <li><img src="public/img/gallery/madera/juriquilla.jpg"></li>
-                <li><img src="public/img/gallery/madera/campestre.jpg"></li>
-                <li><img src="public/img/gallery/madera/madera.jpg"></li>
-              </ul>
-            </div>
-            <button class="prev btn-flat white-text w3-display-left" style="z-index: 5; height: 70px; width:70px; font-size: 36px;">❮</button>
-            <button class="next btn-flat white-text w3-display-right" style="z-index: 5; height: 70px; width:70px; font-size: 36px;">❯</button>
           </div>
-          <div class="w3-col s12 m5 verticalalign" style="background-color:#263238;">
-            <div class="container w3-padding-32" id="lacatext">
+          <div class="col s12 m5 verticalalign" style="background-color:#263238;">
+            <div class="container w3-padding-32">
               <h3 class="white-text">COCINA LACA BRILLANTE</h3>
-              <p class="white-text w3-justify">Un estilo único, con una atmósfera versátil y moderna, colores vivos y acabados elegantes.<br><br> Si eres una persona actualizada y con gustos selectos, éste estilo es para ti.</p><a class="btn menu-link" href="#contact">Comenzar mi cocina >></a>
-            </div>
-            <div class="container w3-padding-32 hide" id="melaminatext">
-              <h3 class="white-text">COCINA MELAMINA</h3>
-              <p class="white-text w3-justify">Un estilo único, con una atmósfera versátil y moderna, colores vivos y acabados elegantes.<br><br> Si eres una persona actualizada y con gustos selectos, éste estilo es para ti.</p><a class="btn menu-link" href="#contact">Comenzar mi cocina >></a>
-            </div>
-            <div class="container w3-padding-32 hide" id="maderatext">
-              <h3 class="white-text">COCINA MADERA</h3>
               <p class="white-text w3-justify">Un estilo único, con una atmósfera versátil y moderna, colores vivos y acabados elegantes.<br><br> Si eres una persona actualizada y con gustos selectos, éste estilo es para ti.</p><a class="btn menu-link" href="#contact">Comenzar mi cocina >></a>
             </div>
           </div>
@@ -264,7 +299,7 @@
     <script src="public/plugins/materialize/js/materialize.min.js"></script>
     <script src="public/js/home.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" async="">
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="public/js/jquery-3.2.1.min.js"></script>
     <script src="public/plugins/materialize/js/materialize.min.js"></script>
     <script src="public/js/home.js"></script>
   </body>

@@ -12,6 +12,18 @@ $(document).ready(function(){
 		interval: 5000,
 		indicators: false,
 	});
+	$('.slider1').slider({
+		full_width: false,
+		height: 550,
+		interval: 5000,
+		indicators: false,
+	});
+	$('.slider2').slider({
+		full_width: false,
+		height: 550,
+		interval: 5000,
+		indicators: false,
+	});
 	$('.materialboxed').materialbox();
 });
 
@@ -29,8 +41,11 @@ $('#buttonmelamina').click(function(){
 		$('#buttonmadera').removeClass('btn-active');
 		// cambiar la clase CSS del slider aquí
 		$('#melamina').removeClass('hide');
+		$('#melamina').addClass('slider');
 		$('#laca').addClass('hide');
+		$('#laca').removeClass('slider');
 		$('#madera').addClass('hide');
+		$('#madera').removeClass('slider');
 		// cambiar la clase CSS de la descripción aquí
 		$('#melaminatext').removeClass('hide');
 		$('#lacatext').addClass('hide');
@@ -48,8 +63,11 @@ $('#buttonmadera').click(function(){
 		$('#buttonmelamina').removeClass('btn-active');
 		// cambiar la clase CSS del slider aquí
 		$('#madera').removeClass('hide');
+		$('#madera').addClass('slider');
 		$('#laca').addClass('hide');
+		$('#laca').removeClass('slider');
 		$('#melamina').addClass('hide');
+		$('#melamina').removeClass('slider');
 		// cambiar la clase CSS de la descripción aquí
 		$('#maderatext').removeClass('hide');
 		$('#lacatext').addClass('hide');
@@ -68,8 +86,11 @@ $('#buttonlaca').click(function()
 		$('#buttonmadera').removeClass('btn-active');
 		// cambiar la clase CSS del slider aquí
 		$('#laca').removeClass('hide');
+		$('#laca').addClass('slider');
 		$('#melamina').addClass('hide');
+		$('#melamina').removeClass('slider');
 		$('#madera').addClass('hide');
+		$('#madera').removeClass('slider');
 		// cambiar la clase CSS de la descripción aquí
 		$('#lacatext').removeClass('hide');
 		$('#melaminatext').addClass('hide');
